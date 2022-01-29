@@ -18,79 +18,10 @@
 </p>
 <br><br><br><br><br><br><br><br><br>
 <p align=center>
-  <a href="https://t.me/ganyameda>"><img src="https://www.freepnglogos.com/uploads/telegram-logo-2.png" style="width: 50px; height: 50; margin: 0px;"></a>
-  <a href="https://instagram.com/ganyamede"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png" style="width: 50px; height: 50; margin: 0px;"></a>
-  <a href="https://github.com/ganyamede"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="width: 50px; height: 50; margin: 0px;"></a>
+  <a href="https://t.me/ganyameda>"><img src="https://www.freepnglogos.com/uploads/telegram-logo-2.png" style="width: 50px; height: 50; margin: 100px;"></a>
+  <a href="https://instagram.com/ganyamede"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png" style="width: 50px; height: 50; margin: 100px;"></a>
+  <a href="https://github.com/ganyamede"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="width: 50px; height: 50; margin: 100px;"></a>
 </p>
-
-<script>
-
-var balance = 100;
-
-document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-
-function V1() {
-    if (balance < 50) {
-        document.getElementById("balance").innerHTML = "У вас недостаточно монеток, начните заново!";
-    } else {
-    var int_random = Math.floor(Math.random() * 4);
-    if (int_random == 3) {
-        balance -= 50;
-        document.getElementById("balance").innerHTML = "Вы проиграли 50 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    } else {
-        balance += 50;
-        document.getElementById("balance").innerHTML = "Вы выиграли 50 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    }
-  }
-}
-
-function V2() {
-    if (balance < 200) {
-        document.getElementById("balance").innerHTML = "У вас недостаточно монеток, начните заново!";
-    } else {
-    var int_random = Math.floor(Math.random() * 4);
-    if (int_random == 3) {
-        balance -= 200;
-        document.getElementById("balance").innerHTML = "Вы проиграли 200 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    } else {
-        balance += 200;
-        document.getElementById("balance").innerHTML = "Вы выиграли 200 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    }
-  }
-}
-
-function V3() {
-    if (balance < 500) {
-        document.getElementById("balance").innerHTML = "У вас недостаточно монеток, начните заново!";
-    } else {
-    if (Math.floor(Math.random() * 4) == 3) {
-        balance -= 500;
-        document.getElementById("balance").innerHTML = "Вы проиграли 500 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    } else {
-        balance += 500;
-        document.getElementById("balance").innerHTML = "Вы выиграли 500 монет, ваш баланс: " + balance;
-        document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-    }
-  }
-}
-
-function remove() {
-  balance -= balance;
-  balance += 100;
-  document.getElementById("balance").innerHTML = "Готово! Ваш баланс: "+balance; 
-  document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-}
-
-function balance() {
-  document.getElementById("balance").innerHTML = "Ваш баланс: "+balance; 
-  document.getElementById("bal").innerHTML = "Ваш баланс: " + balance;
-}
-</script>
 
 
 
